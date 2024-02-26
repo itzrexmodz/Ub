@@ -1,0 +1,7 @@
+config:
+  gcp:region: us-central1
+  pulumi:template: serverless-gcp-python
+  serverless-gcp-python:appPath: pyUltroid
+  serverless-gcp-python:errorDocument: error.html
+  serverless-gcp-python:indexDocument: index.html
+  serverless-gcp-python:sitePath: ./www
